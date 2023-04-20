@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    text-align: center;
+}
+
+header nav ul{ 
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+   background-image:url(https://static5.depositphotos.com/1038117/460/i/600/depositphotos_4608292-stock-photo-texture-fresh-wood-background.jpg);
+   font-weight: 500;
+}
+
+.nav-sombreado{
+    padding: 8px 12px ;
+    border-radius: 3px;
+}
+.nav-sombreado:hover{
+background-color:#fff5be ;
+transition: 0.3s;
+}
+
+
+#carouselExampleAutoplaying{
+    width: 700px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+}
+
+.carousel-inner div img{
+    width: 500px;
+    height: 500px;
+   
+}
+
+.carousel-item{
+transition-duration: 6s;
+}
+
+h2{
+    font-family:cursive;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    margin: 20px 0;
+}
+.caja{
+    width: 400px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    border: 5px solid black;
+}
+.caja img{
+    width: 300px;
+    height: 300px;
+}
+
+footer{
+    border: 1px solid black;
+}
+
+.footer1{
+    background-color: #cfd8dc ;
+    display: flex;
+    justify-content:space-around;
+}
+
+.icon{
+    width: 20px;
+}
+
+.footer2{
+    background-color: #263238;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    padding: 25px;
+    
+}
+.ultimotext h3{
+    font-size: 12px;
+}
